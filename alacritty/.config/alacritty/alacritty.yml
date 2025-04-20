@@ -1,0 +1,54 @@
+# Alacritty Configuration
+# Font configuration
+font:
+  size: 14
+  normal:
+    family: "JetBrainsMono Nerd Font Mono" # Current font in use
+  bold:
+    family: "JetBrainsMono Nerd Font Mono"
+
+# Apply Horizon Dark theme color
+colors:
+  primary:
+    background: "0x1c1e26" # Dark background from Horizon theme
+    foreground: "0xcbced3" # Light gray foreground for better contrast
+  normal:
+    black: "0x1c1e26"
+    red: "0xe93c58"
+    green: "0x29d398"
+    yellow: "0xe58d7d"
+    blue: "0x36a3d9"
+    magenta: "0xe1a3ee"
+    cyan: "0x4bd9bf"
+    white: "0xcbced3"
+  bright:
+    black: "0x686868"
+    red: "0xe95678"
+    green: "0x3ec07d"
+    yellow: "0xFAB795"
+    blue: "0x3DC4F2"
+    magenta: "0xC774E8"
+    cyan: "0x4EB3D7"
+    white: "0xFFFFFF"
+
+# Window configuration
+window:
+  dynamic_padding: true
+  decorations: full
+  opacity: 0.92
+  padding:
+    x: 8
+    y: 8
+
+# Scrollback settings
+scrolling:
+  history: 10000
+  multiplier: 3
+
+# Performance tuning
+draw:
+  fps: 120
+
+# Shell configuration
+shell:
+  program: /usr/bin/zsh # Use Zsh as your shell

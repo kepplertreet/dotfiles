@@ -1,0 +1,81 @@
+# [colors.bright]
+# black = "0x686868"
+# blue = "0x3DC4F2"
+# cyan = "0x4EB3D7"
+# green = "0x3ec07d"
+# magenta = "0xC774E8"
+# red = "0xe95678"
+# white = "0xFFFFFF"
+# yellow = "0xFAB795"
+#
+# [colors.normal]
+# black = "0x1c1e26"
+# blue = "0x36a3d9"
+# cyan = "0x4bd9bf"
+# green = "0x29d398"
+# magenta = "0xe1a3ee"
+# red = "0xe93c58"
+# white = "0xcbced3"
+# yellow = "0xe58d7d"
+#
+[colors.selection]
+text = "0x191724"
+background = "0xe0def4"
+
+[colors.normal]
+black = "0x1f1d2e"
+red = "0xeb6f92"
+green = "0x9ccfd8"
+yellow = "0xf6c177"
+blue = "0x31748f"
+magenta = "0xc4a7e7"
+cyan = "0x9ccfd8"
+white = "0xe0def4"
+
+[colors.bright]
+black = "0x5C5C75"
+red = "0xeb6f92"
+green = "0x9ccfd8"
+yellow = "0xf6c177"
+blue = "0x31748f"
+magenta = "0xc4a7e7"
+cyan = "0x9ccfd8"
+white = "0xe0def4"
+
+[colors.primary]
+background = "#121214"
+foreground = "0xe0def4"
+
+[colors.cursor]
+text = "0x191724"
+cursor = "0xe0def4"
+
+[font]
+size = 14
+
+[font.bold]
+family = "JetBrainsMono Nerd Font Mono"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+
+[scrolling]
+history = 1000
+multiplier = 3
+
+[shell]
+program = "/usr/bin/zsh"
+
+[window]
+decorations = "none"
+dynamic_padding = true
+opacity = 1.00
+
+[window.padding]
+x = 8
+y = 8
+
+[keyboard]
+bindings = [
+{ key = "N", mods="Super|Shift", action="CreateNewWindow"}
+]

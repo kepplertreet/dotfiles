@@ -344,7 +344,7 @@ require('lazy').setup({
         },
         -- gopls = {},
         pyright = { filetypes = { 'python' } },
-        ruff_lsp = { filetypes = { 'python' }, on_attach = on_attach },
+        ruff = { filetypes = { 'python' }, on_attach = on_attach },
         rust_analyzer = { filetypes = { 'rust' } },
 
         lua_ls = {

@@ -40,7 +40,7 @@ return {
         typeStyle = {},
         transparent = false, -- do not set background color
         dimInactive = false, -- dim inactive window `:h hl-NormalNC`
-        theme = 'wave', -- Load "wave" theme
+        theme = 'dragon', -- Load "wave" theme
       }
       ColorMyPencils 'kanagawa'
     end,
